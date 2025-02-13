@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>GameX</title>
+    <style>
+      body {
+        /* background-color: #10002b; */
+        background-color: #3c096c;
+        color: white;
+
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin: 0;
+      }
+
+      #logo {
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      header {
+        padding: 0;
+        margin: 0;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      ul {
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+        width: 90%;
+        justify-content: space-evenly;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+      }
+
+      .top10Card {
+        background-color: white;
+        width: 22%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* padding: 10px; */
+        padding: 10px;
+        border-radius: 16px;
+      }
+
+      #top10Board {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+      }
+
+      .top10CardImg {
+        height: 80%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .categoryCardImg {
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .top10CardContent {
+        height: 20%;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .top10CardContent a {
+        color: #3c096c;
+        font-weight: 600;
+      }
+
+      .flexCenter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .flexEvenly {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .footerIcon {
+        height: 20%;
+        width: 18%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      /* links for image  */
+      :root {
+        --img-nba2k24: url("https://m.media-amazon.com/images/I/813WLMZUlrL.jpg");
+
+        --img-nba2k20: url("https://m.media-amazon.com/images/I/81m5hdK82sL.jpg");
+
+        --img-wwe2k20: url("https://m.media-amazon.com/images/I/81mAxEmatDL.jpg");
+
+        --img-wwe2k24: url("https://upload.wikimedia.org/wikipedia/en/c/c5/WWE_2K24_Standard_Cover.png");
+
+        --img-faceBook: url("https://static-00.iconduck.com/assets.00/facebook-emoji-2048x2048-egs82yny.png");
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <!-- navbar -->
+
+        <nav>
+          <div><a href="" id="logo">GameX</a></div>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li>
+              <a href="" id="game">Games</a>
+            </li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+          </ul>
+        </nav>
+        <!-- banner -->
+
+        <img
+          height="900px"
+          width="100%"
+          src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/07/2k-games-banner-with-red-2k-publisher-logo.jpg"
+          alt="2k games"
+        />
+      </header>
+      <!-- top10Board -->
+
+      <section id="top10Board">
+        <div style="height: 20%; font-size: 26px" class="flexCenter">
+          <p>Top 10 Games 2024</p>
+        </div>
+
+        <section style="height: 80%; padding: 10px" class="flexEvenly">
+          <div class="top10Card">
+            <div
+              style="background-image: var(--img-wwe2k20)"
+              class="top10CardImg"
+            >
+              <a href="" style="margin: 10px">⬇️</a>
+            </div>
+            <div class="top10CardContent">
+              <a href="" style="font-weight: 600; color: #3c096c"> WWE 2K20</a>
+            </div>
+          </div>
+
+          <div class="top10Card">
+            <div
+              style="background-image: var(--img-wwe2k24)"
+              class="top10CardImg"
+            >
+              <a href="" style="margin: 10px">⬇️</a>
+            </div>
+            <div class="top10CardContent">
+              <a href="" style="font-weight: 600; color: #3c096c"> WWE 2K24</a>
+            </div>
+          </div>
+
+          <div class="top10Card">
+            <div
+              style="background-image: var(--img-nba2k24)"
+              class="top10CardImg"
+            >
+              <a href="" style="margin: 10px">⬇️</a>
+            </div>
+            <div class="top10CardContent">
+              <a href="" style="font-weight: 600; color: #3c096c"> NBA 2K24</a>
+            </div>
+          </div>
+
+          <div class="top10Card">
+            <div
+              style="background-image: var(--img-nba2k20)"
+              class="top10CardImg"
+            >
+              <a href="" style="margin: 10px">⬇️</a>
+            </div>
+            <div class="top10CardContent">
+              <a href=""> NBA 2K20</a>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- video -->
+
+      <section
+        style="background-color: black; height: 1200px; margin-top: 30px"
+      >
+        <div class="flexCenter" style="font-size: 26px">
+          <p>Breathless Lauches</p>
+        </div>
+        <embed
+          src="https://www.youtube.com/embed/qx0A921z8mA?si=MFg2YdQQCVoco5NV"
+          type="text/html"
+          height="92%"
+          width="100%"
+        />
+      </section>
+
+      <!-- Categories -->
+
+      <section style="height: 800px">
+        <div style="height: 20%; font-size: 50px" class="flexCenter">
+          <p>Categories</p>
+        </div>
+
+        <section style="height: 78%; padding: 10px" class="flexEvenly">
+          <div class="top10Card">
+            <a href="" style="height: 100%; width: 100%"
+              ><div
+                style="
+                  background-image: url('https://image.api.playstation.com/vulcan/img/cfn/11307UcJm-dIRxM1uiPj2R91acwVc2_ucoZPbOOtv9wtuUxsbzzHSdQ6qXkIGrddI1uJcymMbNYYujdEZUjW2ZLE1bY6gC9g.png');
+                "
+                class="categoryCardImg"
+              ></div
+            ></a>
+            <div class="top10CardContent">
+              <a href="" style="font-weight: 600; color: #3c096c">
+                Role-Playing Games</a
+              >
+            </div>
+          </div>
+
+          <div class="top10Card">
+            <a href="" style="height: 100%; width: 100%"
+              ><div
+                style="
+                  background-image: url('https://m.media-amazon.com/images/I/81JeqskUs2L._AC_UF894,1000_QL80_.jpg');
+                "
+                class="categoryCardImg"
+              ></div>
+            </a>
+            <div class="top10CardContent">
+              <a href="" style="font-weight: 600; color: #3c096c">
+                Strategy Games</a
+              >
+            </div>
+          </div>
+
+          <div class="top10Card">
+            <a href="" style="height: 100%; width: 100%"
+              ><div
+                style="background-image: var(--img-nba2k24)"
+                class="categoryCardImg"
+              ></div
+            ></a>
+            <div class="top10CardContent">
+              <a href="" style="font-weight: 600; color: #3c096c">
+                Sports Games
+              </a>
+            </div>
+          </div>
+
+          <div class="top10Card">
+            <a href="" style="height: 100%; width: 100%"
+              ><div
+                style="
+                  background-image: url('https://mms.businesswire.com/media/20200519005131/en/792320/5/MAFIA_TRILOGY.jpg');
+                "
+                class="categoryCardImg"
+              ></div
+            ></a>
+            <div class="top10CardContent">
+              <a href=""> Action Games</a>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <footer
+        style="
+          background-color: whitesmoke;
+          height: 100px;
+          margin-top: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div
+          style="
+            color: #3c096c;
+            font-size: 2rem;
+            font-weight: 900;
+            margin-right: 10px;
+          "
+        >
+          Follow Us
+        </div>
+        <div style="letter-spacing: 3px">
+          <a href=""
+            ><i
+              class="fa-brands fa-square-facebook"
+              style="font-size: 50px; color: rgb(7, 7, 149)"
+            ></i
+          ></a>
+          <a href=""
+            ><i
+              class="fa-brands fa-instagram"
+              style="font-size: 50px; color: rgb(241, 55, 86)"
+            ></i
+          ></a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
